@@ -11,15 +11,14 @@ PinkWrite
 </head>
 <body>
 
-<textarea id="writingArea" class="writingBox" rows="8" cols="82" placeholder="Put original text here.."></textarea>
+<textarea id="saveName" class="writingBox" rows="1" cols="3" placeholder="[filename]"></textarea>
+<textarea id="writingArea" class="writingBox" rows="16" cols="82" placeholder="Write content here..."></textarea>
 <br />
 <br />
 <div id="result">
-	<span id="wordCount" class="wordCounter" >0</span><br/>
+<button type="button" class="darkButton" onclick="download()">Local save</button> <span id="wordCount" class="wordCounter" >0</span><br/>
 </div>
 <br />
-<br />
-<button type="button" onclick="download()">Local save</button>
 
 </body>
 </html>
