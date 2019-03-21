@@ -41,6 +41,11 @@ width:100%;
 outline:none;
 }
 
+#saveName {
+resize:none;
+}
+
+/* Word count */
 .wordCounter {
 color:#000;
 font: 28px/24px "monospace", "mono", "Andale Mono", "Courier", "Droid Sans Mono", "Courier New";

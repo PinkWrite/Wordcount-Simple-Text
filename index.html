@@ -2,7 +2,7 @@
 <html>
 <head>
 <title>
-PinkWrite
+PinkWrite 99
 </title>
 	<link rel="icon" href="favicon.ico">
 	<link rel="stylesheet" type="text/css" href="style.css" />
@@ -12,12 +12,14 @@ PinkWrite
 </head>
 <body>
 
-<textarea id="saveName" class="writingBox" rows="1" cols="3" placeholder="[filename]"></textarea>
-<textarea id="writingArea" class="writingBox" rows="32" cols="82" placeholder="Write content here..."></textarea>
+<textarea id="writingArea" class="writingBox" rows="22" cols="82" onPaste="return false" onCut="return false" onDrag="return false" onDrop="return false" autocomplete=off placeholder="Write content here..."></textarea>
 <br />
 <br />
+<span id="wordCount" class="wordCounter" >0</span><br />
 <div id="result">
-<button type="button" class="darkButton" onclick="download()">Local save</button> <span id="wordCount" class="wordCounter" >0</span><br/>
+<br />
+<textarea id="saveName" class="writingBox" rows="1" cols="3"></textarea><br />
+<button type="button" class="darkButton" onclick="download()">Finish</button>
 </div>
 <br />
 
