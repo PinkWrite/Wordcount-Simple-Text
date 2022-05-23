@@ -1,4 +1,4 @@
-# PinkWrite 99
+# PinkWrite Wordcount Simple Text
 *A typing box for learning composition*
 
 This slimmed-down text editor is imported from the [PinkWrite Client](https://github.com/PinkWrite/PinkWrite-Client), but slightly rearranged and includes no-paste, no-cheat features for classroom use from [PinkWrite 88](https://github.com/PinkWrite/88)
